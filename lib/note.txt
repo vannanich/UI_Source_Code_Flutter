@@ -16,4 +16,4 @@ How to push got into git hub by don't need to create repo
 - git commit -m "this is message"
 
 (push -> remote -> main)
-- push origin main 
+- git push origin main 
