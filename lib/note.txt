@@ -1,0 +1,19 @@
+_ Itunes(window only)
+_sideloadly
+_apple ID
+_ipa file ->flutter build ipa --releasee (mac only)
+-push code into git hub ->workflow vm(MacOS)->ipa->sideload into iphone
+
+
+
+How to push got into git hub by don't need to create repo 
+
+- git init : pjol code into git hub
+    - remote : link to git hub repo (default name : origin)
+        - origin
+    - branch = folder
+- git add . (. it meant add all file)
+- git commit -m "this is message"
+
+(push -> remote -> main)
+- push origin main 

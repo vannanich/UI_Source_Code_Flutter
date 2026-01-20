@@ -1,0 +1,7 @@
+showDialog is a function not widget 
+
+
+file and shared preference
+////////////////////
+file save only string but multiple data , like 20 line or 30 line
+shared preference can share multiple data type like : int , double or float but in one datatype can store only one data 

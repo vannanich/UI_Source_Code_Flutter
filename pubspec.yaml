@@ -1,0 +1,46 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.3.2
+  image_picker: ^1.2.1
+  flashy_tab_bar2: ^0.0.10
+  google_nav_bar: ^5.0.7
+  shimmer: ^3.0.0
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  intl: ^0.20.2
+  # rive: ^0.14.0
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# add this for change icon app
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/appIcon.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  adaptive_icon_background: "assets/icons/appIcon.jpg"
+  adaptive_icon_foreground: "assets/icons/appIcon.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/animation/
+
+    # the second assets is name of folder and the first assets is default assets
+    # the second liine of assets use 1 tab before it and put - and space 1
