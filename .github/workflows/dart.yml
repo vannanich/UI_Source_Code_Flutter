@@ -1,4 +1,4 @@
-name: build-ios-1
+name: build-ios-2
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
     name: 🎉 iOS Build
     runs-on: macos-latest
     env:
-      APP_NAME: "My IOS App"  # Set the app name here
+      APP_NAME: "My App"  # Set the app name here
 
     steps:
       - uses: actions/checkout@v3
@@ -44,6 +44,6 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: build/ios/iphoneos/${{ env.APP_NAME }}.ipa
-          tag: v1.0
+          tag: v2.0
           overwrite: true
           body: "This is the first release"
